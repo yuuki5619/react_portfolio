@@ -1,11 +1,12 @@
 import "./App.css";
-
+import imgaes from "./img/icon.jpg";
+import pcImage from "./img/pc.jpg";
 function App() {
   return (
     <>
       <header className="text-gray-50 bg-slate-400 ">
         <div className="container flex mx-auto p-5 flex-col md:flex-row items-center">
-          <a href="#" className="font-medium mb-4 md:mb-0">
+          <a href="/" className="font-medium mb-4 md:mb-0">
             <span className="text-xl ml-3">Portfolio</span>
           </a>
           <nav className="md:ml-auto text-base">
@@ -32,7 +33,7 @@ function App() {
             </h1>
           </div>
           <div className="md:w-1/2 lg:max-w-lg w-5/6">
-            <img src="./img/icon.jpg" alt="" />
+            <img src={imgaes} alt="" />
           </div>
         </div>
       </section>
@@ -86,7 +87,7 @@ function App() {
                     In, distinctio! Nam nemo atque doloribus! Necessitatibus
                     soluta perferendis consectetur atque natus?
                   </p>
-                  <a href="#" className="flex mt-3 text-blue-500 items-center">
+                  <a href="/" className="flex mt-3 text-blue-500 items-center">
                     詳しくみる
                     <svg
                       width="24"
@@ -120,11 +121,7 @@ function App() {
       <section id="skills" className="text-gray-500 border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="mb-5 lg:mb-0 w-full lg:w-1/2 flex justify-center">
-            <img
-              src="./img/pc.jpg"
-              alt=""
-              className="rounded sm:h-96 sm:w-96"
-            />
+            <img src={pcImage} alt="" className="rounded sm:h-96 sm:w-96" />
           </div>
           <div className="lg:pl-12 lg:py-6 w-full lg:w-1/2">
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-500 mb-10 text-center">
