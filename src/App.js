@@ -137,7 +137,7 @@ function App() {
                   1年
                 </div>
               </div>
-              <h2 className="mt-2">CSS</h2>
+              <h2 className="mt-2">C</h2>
               <div className="shadow bg-blue-100 mt-2 w-full">
                 <div
                   className="bg-blue-600 text-xs leading-none py-1 text-center text-white "
